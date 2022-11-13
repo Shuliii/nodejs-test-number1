@@ -26,11 +26,10 @@ app.set("view engine", ".hbs");
 
 // Connection Pool
 const connection = mysql.createConnection({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "password",
-  database: "user_profile",
+  host: "eu-cdbr-west-03.cleardb.net",
+  user: "be77dd94a32598",
+  password: "0afe16fa",
+  database: "heroku_4cf4933a51b66a6",
 });
 
 app.get("", (req, res) => {
